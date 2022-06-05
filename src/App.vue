@@ -52,7 +52,7 @@ export default {
         this.$http.get("https://api.hypixel.net/resources/skyblock/items").then((res) => {
             this.$store.commit('item', res.data.items)
         })
-        this.$http.get("https://raw.githubusercontent.com/andyjjrt/bazaar-data/master/quickstat.json").then((res) => {
+        this.$http.get("https://raw.githubusercontent.com/aiveraiva/bazaar-data/master/quickstat.json").then((res) => {
             this.$store.commit('bazaar_quickstat', res.data)
         })
     },
