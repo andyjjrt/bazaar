@@ -205,7 +205,7 @@ export default {
                 this.chart.ready = false
                 this.chart.data.datasets[0].data = []
                 this.chart.data.datasets[1].data = []
-                this.$http.get("https://raw.githubusercontent.com/andyjjrt/bazaar-data/master/datafiles/" + this.ID_list[this.value] + ".json").then((res) => {
+                this.$http.get("https://raw.githubusercontent.com/aiveraiva/bazaar-data/master/datafiles/" + this.ID_list[this.value] + ".json").then((res) => {
                     for(var i in res.data.history){
                         this.chart.data.datasets[0].data.push({x:res.data.history[i].time, y:res.data.history[i].sellPrice.toFixed(2)})
                         this.chart.data.datasets[1].data.push({x:res.data.history[i].time, y:res.data.history[i].buyPrice.toFixed(2)})
