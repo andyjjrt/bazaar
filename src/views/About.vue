@@ -2,8 +2,6 @@
 <template>
   <div class="about">
     <h1>Bazaar@1.0.1</h1>
-    <h2><a href="https://andyjjrt.github.io/">Frontend+Backend: andyjjrt</a></h2>
-    <h2><a href="https://weikuwu.ga">some smol changes: AiverAiva</a></h2>
     <v-row>
       <v-col cols="12" sm="6" md="6" lg="6">
         <template>
@@ -16,7 +14,7 @@
                 <v-list-item-title class="text-h5 mb-1">
                   AiverAiva
                 </v-list-item-title>
-                <v-list-item-subtitle>pink lighten-4</v-list-item-subtitle>
+                <v-list-item-subtitle>owo uwu</v-list-item-subtitle>
               </v-list-item-content>
 
               <v-list-item-avatar size="80" color="grey"><img src="https://avatars.githubusercontent.com/u/43096905?v=4"
@@ -25,7 +23,7 @@
 
             <v-card-actions>
               <a href="https://github.com/AiverAiva">
-                <v-btn icon color="pink">
+                <v-btn icon color="pink lighten-4">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true"
                     class="v-icon__svg">
                     <path
@@ -44,7 +42,7 @@
             <v-list-item three-line>
               <v-list-item-content>
                 <div class="text-overline mb-4">
-                  99% works
+                  dev who did the 99% works
                 </div>
                 <v-list-item-title class="text-h5 mb-1">
                   andyjjrt
