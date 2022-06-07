@@ -26,7 +26,7 @@
             <v-card-actions>
               <a href="https://github.com/AiverAiva">
                 <v-btn icon color="pink">
-                  <font-awesome-icon icon="fa-brands fa-github" />
+                  <v-icon>fa-brands fa-github</v-icon>
                 </v-btn>
               </a>
             </v-card-actions>
@@ -34,7 +34,6 @@
         </template>
       </v-col>
       <v-col cols="12" sm="6" md="6" lg="6">
-
       </v-col>
     </v-row>
   </div>
