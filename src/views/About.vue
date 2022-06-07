@@ -18,16 +18,16 @@
                 <v-list-item-subtitle>owo uwu</v-list-item-subtitle>
               </v-list-item-content>
 
-              <v-list-item-avatar size="80" color="grey"><img src="https://avatars.githubusercontent.com/u/43096905?v=4" alt="AiverAiva"></v-list-item-avatar>
+              <v-list-item-avatar size="80" color="grey"><img src="https://avatars.githubusercontent.com/u/43096905?v=4"
+                  alt="AiverAiva"></v-list-item-avatar>
             </v-list-item>
 
             <v-card-actions>
-              <router-link to="https://github.com/AiverAiva">
-                <v-btn outlined rounded text>
-                  <v-icon>fa-brands fa-github</v-icon>
+              <a href="https://github.com/AiverAiva">
+                <v-btn icon color="pink">
+                  <font-awesome-icon icon="fa-brands fa-github" />
                 </v-btn>
-              </router-link>
-
+              </a>
             </v-card-actions>
           </v-card>
         </template>
