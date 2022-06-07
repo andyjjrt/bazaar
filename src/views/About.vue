@@ -1,4 +1,5 @@
 <template>
+  <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
   <div class="about">
     <h1>Bazaar@1.0.1</h1>
     <h2><a href="https://andyjjrt.github.io/">Frontend+Backend: andyjjrt</a></h2>
