@@ -26,7 +26,7 @@
             <v-card-actions>
               <a href="https://github.com/AiverAiva">
                 <v-btn icon color="pink">
-                  <font-awesome-icon icon="fa-brands fa-github" />
+                  <v-icon>fa-brands fa-github</v-icon>
                 </v-btn>
               </a>
             </v-card-actions>
@@ -42,7 +42,3 @@
 <script>
 export default {}
 </script>
-
-<style>
-@import 'https://use.fontawesome.com/releases/v5.0.13/css/all.css';
-</style>
