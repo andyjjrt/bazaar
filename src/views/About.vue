@@ -6,7 +6,7 @@
     <v-row>
       <v-col cols="12" sm="6" md="6" lg="6">
         <template>
-          <v-card class="mx-auto" max-width="344" outlined>
+          <v-card class="mx-auto">
             <v-list-item three-line>
               <v-list-item-content>
                 <div class="text-overline mb-4">
