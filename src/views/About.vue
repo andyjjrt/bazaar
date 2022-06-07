@@ -26,7 +26,7 @@
             <v-card-actions>
               <a href="https://github.com/AiverAiva">
                 <v-btn icon color="pink">
-                  <v-icon>fa-brands fa-github</v-icon>
+                  <font-awesome-icon icon="fa-brands fa-github" />
                 </v-btn>
               </a>
             </v-card-actions>
